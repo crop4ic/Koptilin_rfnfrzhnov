@@ -1,0 +1,196 @@
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  font-family: system-ui, sans-serif;
+  background-color: #dbeafe;
+  background-image:
+    radial-gradient(
+      circle at 5% 10%,
+      rgba(37, 99, 235, 0.18) 0,
+      rgba(37, 99, 235, 0.18) 160px,
+      transparent 161px
+    ),
+    radial-gradient(
+      circle at 95% 95%,
+      rgba(37, 99, 235, 0.18) 0,
+      rgba(37, 99, 235, 0.18) 200px,
+      transparent 201px
+    ),
+    radial-gradient(
+      circle at 92% 8%,
+      rgba(37, 99, 235, 0.1) 0,
+      rgba(37, 99, 235, 0.1) 80px,
+      transparent 81px
+    );
+}
+
+.containerRegister {
+  background-color: white;
+  display: grid;
+  justify-content: center;
+  flex-direction: column(1, 1fr);
+  border: 3px solid;
+  border-radius: 15px;
+  width: 361px;
+  height: 510px;
+}
+
+.inputEmail {
+  width: 251px;
+  height: 37px;
+  background-color: #3b3b3b;
+  border-radius: 15px;
+}
+
+.inputName {
+  width: 251px;
+  height: 37px;
+  background-color: #d9d9d9;
+  border-radius: 15px;
+}
+
+.inputPassword {
+  width: 251px;
+  height: 37px;
+  background-color: #d9d9d9;
+  border-radius: 15px;
+}
+
+.inputConfirmPassword {
+  width: 251px;
+  height: 37px;
+  background-color: #d9d9d9;
+  border-radius: 15px;
+}
+
+.registerClient {
+  width: 183px;
+  height: 37px;
+  background-color: #d9d9d9;
+  border-radius: 15px;
+}
+
+.registerA {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.customerAgreed {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.input-error {
+  border: 1px solid #e74c3c !important;
+  outline: none;
+}
+
+.input-success {
+  border: 1px solid #2ecc71 !important;
+  outline: none;
+}
+
+.error-message {
+  color: #e74c3c;
+  font-size: 12px;
+  margin-top: 4px;
+  min-height: 14px;
+}
+
+.labelText {
+  font-size: 13px;
+}
+
+.inputEmail {
+  width: 251px;
+  height: 37px;
+  background-color: #d9d9d9;
+  border-radius: 15px;
+}
+
+.inputPassword {
+  width: 251px;
+  height: 37px;
+  background-color: #d9d9d9;
+  border-radius: 15px;
+}
+
+.enterA {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.customerEnter {
+  width: 251px;
+  height: 37px;
+  background-color: #d9d9d9;
+  border-radius: 15px;
+}
+
+.input-error {
+  border: 1px solid #e74c3c !important;
+  outline: none;
+}
+
+.input-success {
+  border: 1px solid #2ecc71 !important;
+  outline: none;
+}
+
+.error-message {
+  color: #e74c3c;
+  font-size: 12px;
+  margin-top: 4px;
+  min-height: 14px;
+}
+
+.formNone {
+  display: none;
+}
+
+.Enter {
+  display: none;
+}
+
+.active {
+  display: block;
+}
+
+.res {
+  display: none;
+}
+.rost {
+  display: block;
+}
+
+h1 {
+  margin: 0 0 20px;
+  font-size: 24px;
+  text-align: center;
+}
+
+.blockEmail,
+.blockPassword,
+.blockConfirmPassword {
+  margin-bottom: 14px;
+}
+
+.checkReg {
+  position: relative;
+  top: 38px;
+}
+.enterConfirm {
+  position: relative;
+  left: 34px;
+}
+.userAgreement {
+  position: relative;
+  bottom: 19px;
+}

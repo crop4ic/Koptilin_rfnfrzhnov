@@ -1,0 +1,64 @@
+.containerBlog{
+ display: flex;
+ justify-content: center;
+
+}
+
+.dateBlog{
+font-size: 15px;
+display: flex;
+ justify-content: center;
+ color: rgb(155, 151, 151);
+}
+
+.blog h2{
+  text-align: center;
+}
+
+.backBtn{
+  width: 50px;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: none;
+  border: 2px solid;
+  border-radius:16px ;
+}
+
+.linkBack{
+  text-decoration: none;
+  color: black;
+}
+
+.logoBackground{
+  height: 411px;
+
+  background-color:rgba(12, 45, 105, 0.612);
+}
+
+.logoPosition{
+  transform: scale(2);
+position: relative;
+left: 47%;
+top: 35%;
+}
+
+.blogText{
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+}
+
+.textPBlog{
+  color:rgb(155, 151, 151);
+  font-size: 24px;
+}
+
+.textHBlog{
+  font-size: 32px;
+}
+
+.textFutterH{
+  text-align: center;
+  font-size: 48px;
+}

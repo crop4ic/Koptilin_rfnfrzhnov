@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="supportStyle.css">
+  <title>Поддержка</title>
+</head>
+<body>
+  <dialog id="customerAlert">
+    <p>Ваше обращение отправелено на обработку. Просим извенения за предоставленые неудобства.</p>
+    <button onclick="closeAlert()">Ок</button>
+  </dialog>
+  <div class="backFormSupport">
+  <form class="supportForm">
+    <a href="../indexMainPage.html" class="backMyForm">Выход</a>
+    <label class="headLine">Имя аккаунта</label>
+    <input type="text" class="supportName" placeholder="Напишите имя аккаунта..." required>
+    <label class="headLine">Почта</label>
+    <input type="text" class="supportAdress" placeholder="Напишите почта..." required>
+    <label class="headLine">Категоря ошибки</label>
+    <select class="supportSubject">
+      <option value="Аккаунт">Аккаунт</option>
+      <option value="Оплата">Оплата</option>
+      <option value="Другое">Другое</option>
+    </select>
+    <label class="headLine">Опишите ошибку</label>
+    <textarea class="supportError" placeholder="Опишите вашу проблему..." required></textarea>
+    <button type="submit" class="btnSup">Отправить</button>
+  </form>
+</div>
+  <div class="containerSupport"></div>
+  <script src="mainSupport.js"></script>
+  <script src="https://jsdelivr.net"></script>
+</body>
+</html>

@@ -1,0 +1,495 @@
+.header {
+  background-color: #1ab8e43d;
+  border-radius: 35px;
+  width: 100%;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 0 40 px;
+  box-sizing: border-box;
+}
+
+/*правое меню*/
+.rightHeader {
+  padding-right: 50px;
+  display: flex;
+  gap: 22px;
+  width: 800px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+
+.darkTheme {
+  width: 50px;
+  height: 50px;
+}
+
+.darkThemes {
+  background-color: rgba(0, 0, 0, 0.904);
+  color: white;
+}
+
+.darkBtn {
+  border: none;
+  outline: none;
+  width: 50px;
+  height: 50px;
+  background: transparent;
+}
+
+.buscketTotal {
+  width: 50px;
+  height: 50px;
+}
+
+.buscketBtn {
+  border: none;
+  outline: none;
+  width: 50px;
+  height: 50px;
+  background: transparent;
+}
+
+.hrefs {
+  font-size: 26px;
+  color: black;
+  text-decoration: none;
+}
+
+.size {
+  font-size: 20px;
+}
+
+.newColor {
+  color: white;
+}
+
+.enter {
+  color: rgb(0, 0, 0);
+  background-color: rgb(224, 211, 211);
+  width: 75px;
+  height: 40px;
+  border: 3px solid #1ab8e43d;
+  border-radius: 13px;
+}
+
+.register {
+  color: white;
+  background-color: black;
+  border-color: black;
+  font-size: 18px;
+  width: 170px;
+  height: 40px;
+  border: 1px solid;
+  border-radius: 13px;
+}
+.leftHeader {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+/*левое меню*/
+.leftHeader img {
+  height: 110px;
+  width: auto;
+  object-fit: contain;
+}
+
+.logo-link {
+  display: flex;
+}
+
+/*основной контент*/
+.bodyContent {
+  margin-top: 10px;
+  border: 3px solid #1ab8e43d;
+  border-radius: 35px;
+  padding: 20px;
+  width: 98.4%;
+  height: 3700px;
+  display: flex;
+  justify-content: left;
+  gap: 20px;
+}
+
+.colun {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.modal {
+  width: auto;
+  height: auto;
+  min-height: 500px;
+  background-color: whitesmoke;
+  border: 5px dashed black;
+  border-radius: 20px;
+  position: absolute;
+  top: 168px;
+}
+
+/*левое меню основного контента*/
+.leftMenu {
+  width: 490px;
+  height: 3600px;
+  border: 3px solid #1ab8e43d;
+  border-radius: 15px;
+  padding-left: 10px;
+}
+
+.centerContent {
+  display: flex;
+  align-items: center;
+}
+
+.periutInput {
+  margin-left: 15px;
+  margin-right: 10px;
+}
+
+label {
+  font-size: 20px;
+}
+
+/*поиск*/
+.search {
+  padding-left: 50px;
+  width: 1800px;
+  height: 100px;
+}
+/*поиск инпут*/
+.inputCard {
+  font-size: 16px;
+  width: 350px;
+  height: 50px;
+  border: 2px solid #1ab8e43d;
+  border-radius: 16px;
+  padding-left: 15px;
+  padding-right: 40px;
+  background-image: url("images/searchLupa.png");
+  background-repeat: no-repeat;
+  background-position: right 12px center;
+  background-size: 50px 50px;
+  box-sizing: border-box;
+}
+
+/*Кнопки поиска*/
+.searchButton {
+  padding-right: 100px;
+  display: flex;
+  justify-content: flex-end;
+  gap: 40px;
+}
+
+/*контайнер для всех карточек*/
+.cardCatalog {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(180px, 1fr));
+  width: 100%;
+  margin-left: 0;
+  gap: 20px;
+}
+
+/*подвал*/
+.futter {
+  margin-top: 20px;
+  border-radius: 35px;
+  width: 100%;
+  height: 400px;
+  border: 3px solid #1ab8e43d;
+  display: flex;
+  justify-content: space-between;
+}
+
+.futterResurs {
+  margin-right: 300px;
+}
+
+/*Размер иконок*/
+.sizeIcon {
+  width: 40px;
+  height: 35px;
+  padding: 6px;
+}
+
+.sizeIconYT {
+  height: 35px;
+}
+
+.contactNumber {
+  font-size: 22px;
+  padding-left: 30px;
+  padding-top: 40px;
+}
+
+.variant {
+  font-size: 20px;
+}
+
+.futterZagolovok {
+  font-size: 22px;
+}
+
+.cardElements {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  margin: 0 auto;
+  border: 3px solid #1ab8e43d;
+  border-radius: 30px;
+}
+
+.imgCard {
+  padding: 50px;
+  width: 300px;
+  height: 300px;
+}
+
+.nameCard {
+  text-align: center;
+  color: blue;
+  border-bottom: 3px solid #1ab8e43d;
+  border-radius: 100px;
+}
+
+.priceCard {
+  font-size: 26px;
+  padding-left: 40px;
+  color: green;
+}
+
+.btnCard {
+  width: 380px;
+  height: 50px;
+  background: blue;
+  color: white;
+  font-size: 26px;
+  border: 2px solid;
+  border-radius: 15px;
+  margin-left: 8px;
+}
+
+.opisaniePhones {
+  margin: 5px;
+  text-align: center;
+  border: 3px solid #1ab8e43d;
+  border-radius: 7px;
+  font-size: 18px;
+}
+
+.imgComment {
+  width: 50px;
+  height: 50px;
+  border: 2px solid;
+  border-radius: 50px;
+}
+
+.comment {
+  border-bottom: 2px solid;
+  border-radius: 10px;
+  padding: 4.7px;
+}
+
+.back {
+  display: none;
+}
+
+.imgBusketCard {
+  width: 200px;
+  height: 200px;
+}
+
+.blockModal {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+}
+
+.nameCardModal {
+  text-align: center;
+  color: blue;
+  border-radius: 100px;
+}
+
+.deleteCard {
+  width: 200px;
+  height: 50px;
+  background: rgb(255, 0, 0);
+  color: white;
+  font-size: 26px;
+  border: 2px solid;
+  border-radius: 15px;
+  margin-left: 8px;
+}
+
+.busketCardModal {
+  border: 2px solid gray;
+  border-radius: 21px;
+  margin: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.close {
+  display: none;
+}
+
+.colorP {
+  padding-left: 30px;
+  color: black;
+  font-size: 20px;
+}
+
+.busket {
+  margin-left: 10px;
+  color: rgb(30, 166, 107);
+}
+
+.deleteCardAll {
+  width: 150px;
+  height: 40px;
+  background: rgb(255, 0, 0);
+  color: white;
+  font-size: 22px;
+  border: 2px solid;
+  border-radius: 15px;
+  margin-left: 200px;
+  margin-top: 20px;
+}
+
+.busketFill {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 1990px) {
+  .cardElements {
+    width: 67%;
+    max-width: 350px;
+    height: auto;
+  }
+  .bodyContent {
+    width: 97.4%;
+  }
+  .imgCard {
+    width: 80%;
+    height: 200px;
+    padding: 20px;
+  }
+  .btnCard {
+    width: 192px;
+    height: 50px;
+    margin-left: 60px;
+  }
+  .cardCatalog {
+    gap: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 1300px;
+  }
+  .futter {
+    width: auto;
+    height: auto;
+  }
+  .busketModal {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .cardElements {
+    width: 50%;
+    max-width: 350px;
+    height: auto;
+  }
+  .imgCard {
+    width: 80%;
+    height: 200px;
+    padding: 20px;
+  }
+  .btnCard {
+    width: 192px;
+    height: 50px;
+    margin-left: 75px;
+  }
+  .cardCatalog {
+    gap: 20px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    width: auto;
+  }
+  .bodyContent {
+    height: 6950px;
+  }
+  .futter {
+    width: auto;
+    height: auto;
+  }
+  .busketModal {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 16px;
+  }
+}
+
+.user-block {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-left: 10px;
+}
+.user-name {
+  font-weight: 600;
+}
+.logout-btn {
+  border: 1px solid #888;
+  background: transparent;
+  padding: 6px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.logout-btn:hover {
+  background: #e74c3c;
+  border-color: #e74c3c;
+  color: #fff;
+}
+
+#hover:hover {
+  font-size: 27px;
+  font-weight: 600;
+  color: rgb(104, 117, 82);
+}
+
+.buscketTotal:hover {
+  width: 55px;
+  height: 55px;
+}
+
+.darkTheme:hover {
+  width: 55px;
+  height: 55px;
+}
+
+.logoutBtn {
+  width: 120px;
+  height: 30px;
+  background-color: black;
+  color: #fff;
+  border-radius: 10px;
+  margin-left: 30px;
+}
+
+.logoutBtn:hover {
+  border: 2px solid black;
+}
+
+.userName {
+  font-size: 19px;
+}

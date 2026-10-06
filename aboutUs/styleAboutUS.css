@@ -1,0 +1,89 @@
+.containerUpDownBlock {
+  height: 97vh;
+}
+
+.upBlock {
+  width: 2500px;
+  height: 100%;
+  background-color: #71bc200f;
+}
+
+.downBlock {
+  width: 2500px;
+  height: 100%;
+}
+
+.imgAboutUs {
+  width: 400px;
+  height: 250px;
+  padding-top: 100px;
+}
+
+.downLine {
+  border-bottom: 2px solid;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 3vh;
+  font-size: 25px;
+}
+
+.conainerAboutUs {
+  display: flex;
+  justify-content: center;
+  padding-left: 205px;
+  gap: 50px;
+  position: relative;
+  bottom: 70px;
+  right: 100px;
+}
+
+.textAboutUS {
+  font-size: 26px;
+  width: 500px;
+  display: grid;
+  grid-template-columns: repeat(1, fr);
+}
+
+.aboutUsText {
+  padding-top: 50px;
+  padding-left: 100px;
+  font-size: 40px;
+}
+
+.btnAboutUs {
+  font-size: 19px;
+  display: flex;
+  margin-left: auto;
+  width: 70px;
+  text-decoration: none;
+  color: black;
+}
+
+.IntrestingSkills {
+  height: 610px;
+  font-size: 30px;
+}
+
+.IntrestingSkills img {
+  display: flex;
+  margin-left: 30%;
+  height: 300px;
+}
+
+.IntrestingSkills p,
+h2 {
+  margin-left: 50px;
+}
+
+.futterBottom {
+  height: 1vh;
+}
+
+@media screen and (max-width: 1990px) {
+  .upBlock {
+    width: 1895px;
+  }
+  .downBlock {
+    width: 1895px;
+  }
+}

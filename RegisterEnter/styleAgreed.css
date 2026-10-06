@@ -1,0 +1,35 @@
+body{
+background: url(pixelFon.jpg);
+background-size:contain ;
+}
+
+@font-face {
+  font-family: 'Press Start 2P';
+  src: url('PressStart2P-Regular.ttf') format('truetype'); 
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1 ,p{
+  font-size: 20px;
+  font-family: 'Press Start 2P', serif;
+}
+h1{
+text-align: center;
+margin-bottom: 50px;
+}
+.con {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+}
+
+button{
+  width: 250px;
+  height: 37px;
+  background-color: #d9d9d9;
+  border-radius: 15px;
+  font-size: 20px;
+  margin-top: 50px;
+  font-family: 'Press Start 2P', serif;
+}
